@@ -13,5 +13,4 @@ I'm slowly uploading the codes.
 <br>
 Welcome to my page and enjoy! 
 #
-
-[add gif]
+![DipoleDipoloGIF](https://user-images.githubusercontent.com/111397870/195738258-ca6ab0c8-098b-4889-ac45-7320a2201b9a.gif)
