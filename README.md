@@ -13,4 +13,7 @@ I'm slowly uploading the codes.
 <br>
 Welcome to my page and enjoy! 
 #
-![DipoleDipoloGIF](https://user-images.githubusercontent.com/111397870/195738258-ca6ab0c8-098b-4889-ac45-7320a2201b9a.gif)
+<div align="center">
+
+![MathGraphGIF](https://user-images.githubusercontent.com/111397870/195738695-324765c5-eed1-4e56-835b-0dfd599662c2.gif)
+
