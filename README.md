@@ -15,5 +15,6 @@ Welcome to my page and enjoy!
 #
 <div align="center">
 
-![MathGraphGIF](https://user-images.githubusercontent.com/111397870/195738695-324765c5-eed1-4e56-835b-0dfd599662c2.gif)
+![MathCalculateGIF](https://user-images.githubusercontent.com/111397870/196823776-2d7a0c61-18b1-42eb-b42b-14f72a677b90.gif)
+
 
