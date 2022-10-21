@@ -1,0 +1,87 @@
+%EXERCÍCIO DE FIXAÇÃO 20/11/2014
+ 
+ 
+% EXERCÍCIO 01
+ 
+A=input('Digite um número qualquer:   ');
+B=input('Digite um número qualquer:   ');
+ 
+if A>B
+    
+    resultado=A/B;
+    
+else
+    
+    resultado=B/A;
+end
+ 
+disp('O valor da divisão do maior valor pelo menor número é:    ')
+disp(resultado)
+ 
+ 
+%EXERCÍCIO 02
+ 
+R=input('Digite um valor qualquer para calcular a área da circunferência de raio R:   ');
+L=input('Digite um valor qualquer para calcular a área de um quadrado de lado L:   ');
+ 
+AC=pi*R*R;
+AQ=L*L;
+ 
+if AC>AQ
+    
+    disp('A figura de maior área é o circulo, cujo a área é:  ')
+    disp(AC)
+    
+else
+    
+    disp('A figura de maior área é o quadrado, cujo a área é:  ')
+    disp(AQ)
+    
+end
+ 
+ 
+%EXERCÍCIO 3
+ 
+M=input('Digite um valor qualquer:  ');
+N=input('Digite o segundo valor:   ');
+o=input('Digite o último valor:   ');
+ 
+TESTE1=0;
+TESTE2=0;
+TESTE3=0;
+TESTE4=0;
+TESTE5=0;
+TESTE6=0;
+ 
+if M>N
+    TESTE1=M;
+else
+    TESTE2=N;
+end
+ 
+if M>o
+    TESTE3=M;
+else
+    TESTE4=o;
+end
+ 
+if N>o
+    TESTE5=N;
+else
+    TESTE6=o;
+end
+    
+if TESTE1==TESTE3
+    disp('O maior valor dos 3 digitados é:   ')
+    disp(TESTE1)
+end
+ 
+if TESTE2==TESTE5
+    disp('O maior valor dos 3 digitados é:   ')
+    disp(TESTE2)
+end
+ 
+if TESTE4==TESTE6
+    disp('O maior valor dos 3 digitados é:   ')
+    disp(TESTE4)
+end
