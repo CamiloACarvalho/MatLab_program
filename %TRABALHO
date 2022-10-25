@@ -1,0 +1,105 @@
+%TRABALHO PARA NOTA 7
+%CAMILO AUGUSTO CARVALHO 201071055
+%EPD061 - TURMA B
+ 
+% 1) CRIAR UM PROGRAMA PARA ENCONTRAR O MENOR ELEMENTO DE UMA MATRIZ
+% QUALQUER. AO FINAL DEVERÁ INFORMAR O VALOR DO ELEMENTO E SUA POSIÇÃO NA
+% MATRIZ.
+ 
+%Limpa todos os dados do command windows e do workspace
+clear
+clc
+ 
+%dimensiona o tamanho da matriz
+i=input('digite o numero de linhas  ');
+j=input('digite o numero de colunas   ');
+ 
+%cria uma matriz aleatória
+m=randn(i,j);
+%varre a toda a matriz
+ 
+     for linha=1:i
+          for coluna=1:j
+            
+             %se a linha que esta sendo varrida, for menor que a linha que
+             %o valor da linha original, num recebe esse valor.
+            if m(linha,coluna)<m(i,j)
+                
+                num=m(linha,coluna);
+            end
+          end
+     end
+        %o menor numero
+fprintf ('O menor valor da matriz é: %3.5f\n', num)
+ 
+%--------------------------------------------------------------------------
+ 
+%2)CRIAR UM PROGRAMA PARA LER UMA MATRIZ E SUBSTITUIR OS VALORES NEGATIVOS
+%POR ZERO E IMPIMIR A MATRIZ FINAL
+ 
+%Limpa todos os dados do command windows e do workspace
+clear
+clc
+ 
+%dimensiona o tamanho da matriz
+i=input('digite o numero de linhas  ');
+j=input('digite o numero de colunas   ');
+ 
+%cria uma matriz aleatória
+m=randn(i,j);
+ 
+%varre a toda a matriz
+ 
+for linha=1:i
+    for coluna=1:j
+        
+        %faz a comparação pra ver se o valor é menor que zero
+        if m(linha,coluna)<0
+            
+            %substitui os valores negativos por zero
+            m(linha,coluna)=0;
+        end
+    end
+end
+ 
+%a matriz com os valores substituio será dado por:
+disp('A matriz com os valores negativos substituidos por zero será:  ')
+m
+ 
+%--------------------------------------------------------------------------
+ 
+%3)CRIAR UM PROGRAMA PARA LER UMA MATRIZ E ACRESCENTAR A MESMA UM ÚLTIMA
+%COLUNA CUJOS ELEMENTOS SÃO A SOMA DOS ELEMENTOS DA RESPECTIVA LINHA,
+%IMPIMIR A MATRIZ RESULTANTE.
+ 
+%Limpa todos os dados do command windows e do workspace
+clear
+clc
+ 
+%dimensiona o tamanho da matriz
+i=input('digite o numero de linhas  ');
+j=input('digite o numero de colunas   ');
+ 
+%cria uma matriz aleatória
+m=randn(i,j);
+posicao=0;
+%varre a toda a matriz
+ 
+while posicao<=i
+    
+for linha=1:i
+    for coluna=1:j
+        
+        somalinha=m(linha)+m(linha);    
+    end
+end
+ 
+posicao=m(linha,coluna)+m(linha,coluna);
+end
+ 
+somalinha
+ 
+ 
+%***ESTOU COM DIFICULDADE DE LIMITAR O IF. NÃO SEI COMO FAÇO PRA MANDAR O
+%PROGRAMA VARRER ATÉ O FIM DA QUANTIDADE DE LINHA ESTIPULADA. ESTOU A 4H
+%FAZENDO ESSES PROGRAMAS E NADA.
